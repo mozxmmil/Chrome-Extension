@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100vh;
+    height: 90vh;
+    border: 2px ;
+    
+}
+.tool_heading{
+    text-align: center;
+    font-size: large;
+}
+.main{
+    padding: 5px 5px ;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 2px 2px;
+}
+
+.one{
+    margin: 5px 0px;
+    background-color: rgb(42, 56, 56);
+    padding: 5px 3px;
+    display: flex;
+    justify-content: space-between;
+    font-size: medium;
+}
+.one>h2{
+    color: white;
+    font-size: medium;
+    letter-spacing: -1px;
+}
+.button1{
+     color: rgb(0, 0, 0);
+    text-align: center;
+    border: none;
+    border-radius: 7px 7px;
+    width: 50px;
+    padding: 4px 5px;
+    background-color: rgb(255, 252, 252);
+}
+.button1:hover{
+    cursor: pointer;
+    background-color: rgb(172, 165, 165);
+}

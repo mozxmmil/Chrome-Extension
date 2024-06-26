@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Tool Mox",
+  "version": "1.0",
+  "description": "A simple Chrome extension example.",
+  "permissions": ["activeTab", "scripting", "downloads", "nativeMessaging"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "com.vscode",
+  "description": "Download Monitor Native Messaging Host",
+  "path": "index.js",
+  "type": "stdio",
+  "allowed_origins": ["chrome-extension://biefhfobkdfekkfacjigjdihlpagllcm/"]
+}
